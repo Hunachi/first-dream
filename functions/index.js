@@ -1,3 +1,8 @@
+/*
+ $ firebase deploy --only functions
+ and set uri
+*/
+
 'use strict';
 
 process.env.DEBUG = 'actions-on-google:*';
