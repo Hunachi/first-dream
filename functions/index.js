@@ -10,6 +10,7 @@ const http = require('request');
 const { DialogflowApp } = require('actions-on-google');
 const functions = require('firebase-functions');
 
+/*これ失敗してるのでfitttを使いましょう。*/
 const options = {
     uri: "https://9399d71d.ngrok.io/google-home-notifier",
     headers: {
